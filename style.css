@@ -1,0 +1,118 @@
+@font-face {
+    font-family: titi;
+    src: url(Fonts/TitilliumWeb-ExtraLight.ttf);
+}
+
+
+*,::before,::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(37, 37, 37);
+}
+
+h1{
+    font-size: 4rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0.5em;
+    padding-left: 50px;
+    color: white;
+}
+
+span{
+    font-size: 6rem;
+    margin-left: .2em;
+    margin-right: .2em;
+    text-shadow:0px 10px 10px rgb(12, 8, 36);
+}
+
+.bola{
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+    margin:auto;
+    margin-bottom: 3em;
+    overflow: hidden;
+    position: relative;
+}
+
+.bola::after{
+    content: "";
+    width: 15em;
+    height: 15em;
+    background-image: url(img/Reflejo.png);
+    position: absolute;
+    top: 0px;
+    opacity: 0.3;
+}
+
+#fondo_respuesta{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    background-color: rgb(16, 11, 27);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity: 0%;
+}
+
+#cinta{
+    width: 500em;
+    height: 15em;
+    background-image: url(img/Cinta_gradiente.png);
+    position: absolute;
+}
+
+#respuesta{
+    color: white;
+    width:15em;
+    height: 15em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    position: absolute;
+    text-align: center;
+    line-height: 15em;
+    opacity: 0%;
+}
+
+input{
+    display: block;
+    margin: auto;
+    border:none;
+    border-radius:10px;
+    background-color: rgba(172, 171, 171, 0.178);
+    padding:1em 2em;
+    width: 600px;
+    color: white;
+    font-family: monospace;
+    font-size: 1.1rem;
+}
+
+button{
+    border:none;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    font-family:titi;
+    display: block;
+    margin: auto;
+    margin-top: 2.5em;
+    color: white;
+    background-color:black;
+    cursor: pointer;
+    width: 180px ;
+
+    transition: all .5s ease;
+}
+
+button:hover{
+    background-color:rgb(21, 16, 34);
+    color: white;
+    width: 250px;
+}
+
