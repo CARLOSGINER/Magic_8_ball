@@ -1,4 +1,4 @@
- **BOLA 🎱 MAGICA** /  [Visitar pagina aqui!](https://carlosginer.github.io/Bola_8_Magica/)
+ **BOLA 🎱 MAGICA** /  [Visitar pagina aqui!](https://carlosginer.github.io/Magic_8_ball/)
 ___________________________________________________________________________________________________________________________________________________________________________________
 
 *App que recrea el juego de Bola 8 Magica.* 
